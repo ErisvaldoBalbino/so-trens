@@ -24,3 +24,6 @@ Aplicação que simula o movimento de múltiplos trens em um sistema de trilhos.
 - Controle de múltiplos trens
 - Ajuste de velocidade
 - Sincronização automática
+
+## Demonstração
+![Recording 2025-11-22 125229](https://github.com/user-attachments/assets/9a907087-031e-4b91-8a3f-ca9490f96389)
