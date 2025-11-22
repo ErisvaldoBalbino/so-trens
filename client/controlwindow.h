@@ -23,6 +23,7 @@ private slots:
     void on_btnTrainOn_clicked();
     void on_btnTrainOff_clicked();
     void on_sliderSpeed_valueChanged(int value);
+    void on_lineTrainId_textChanged(const QString &text);
 
     void onConnected();
     void onDisconnected();
