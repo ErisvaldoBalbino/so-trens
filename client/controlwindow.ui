@@ -45,6 +45,10 @@ QLineEdit:focus {
 	border: 2px solid #4a90e2;
 	background-color: #455a6f;
 }
+QLineEdit:invalid {
+	border: 2px solid #e74c3c;
+	background-color: #5a3a3a;
+}
 QSlider::groove:horizontal {
 	background-color: #3d4a5c;
 	height: 6px;
@@ -123,6 +127,46 @@ QSlider::sub-page:horizontal {
          <property name="bottomMargin">
           <number>30</number>
          </property>
+         <item>
+          <layout class="QHBoxLayout" name="layoutStatus">
+           <item>
+            <widget class="QLabel" name="label_status">
+             <property name="text">
+              <string>Status:</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_connectionStatus">
+             <property name="text">
+              <string>Conectando...</string>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: #f39c12; font-weight: bold; font-size: 9px;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_status">
+             <property name="orientation">
+              <enum>Qt::Orientation::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
          <item>
           <widget class="QLabel" name="label_info">
            <property name="styleSheet">
