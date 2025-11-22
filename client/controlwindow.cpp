@@ -24,7 +24,7 @@ ControlWindow::ControlWindow(QWidget *parent)
     connect(socket, &QTcpSocket::readyRead, this, &ControlWindow::onReadyRead);
     connect(socket, &QTcpSocket::errorOccurred, this, &ControlWindow::onError);
 
-    socket->connectToHost("127.0.0.1", 1234);
+    socket->connectToHost("127.0.0.1", 6767);
 }
 
 ControlWindow::~ControlWindow()

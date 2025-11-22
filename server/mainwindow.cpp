@@ -7,7 +7,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent),
     ui->setupUi(this);
 
     networkHandler = new NetworkHandler(this);
-    networkHandler->startServer(1234);
+    networkHandler->startServer(6767);
 
     connect(networkHandler, &NetworkHandler::commandReceived, this, &MainWindow::processarComando);
 

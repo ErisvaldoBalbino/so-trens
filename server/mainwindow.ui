@@ -30,7 +30,7 @@
      <string notr="true">color: #2ecc71; font-weight: bold; font-size: 10px; background-color: rgba(46, 204, 113, 0.1); padding: 4px; border-radius: 3px;</string>
     </property>
     <property name="text">
-     <string>Servidor: Rodando na porta 1234</string>
+     <string>Servidor: Rodando na porta 6767</string>
     </property>
    </widget>
    <widget class="QLabel" name="labelTrilho01">
