@@ -1,10 +1,16 @@
-# Trens - Sistema de Simulação de Trens
+# Trens
 
-Sistema de simulação de trens desenvolvido em Qt/C++.
+Simulação de trens sincronizados com semáforos, com cliente e servidor via TCP
 
-## Descrição
+Atividade de **Sistemas Operacionais** (SO) — IFRN.
 
-Aplicação que simula o movimento de múltiplos trens em um sistema de trilhos. O sistema utiliza semáforos binários para garantir a sincronização e evitar colisões entre os trens.
+## Stack
+
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![Qt](https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+
+## Como rodar
+
+Abra o `trens.pro` no Qt Creator (Qt 6) e rode primeiro o `server` e depois o `client`.
 
 ## Componentes
 
@@ -19,12 +25,5 @@ Aplicação que simula o movimento de múltiplos trens em um sistema de trilhos.
 - Permite ligar/desligar trens
 - Ajusta a velocidade dos trens
 
-## Funcionalidades
-
-- Controle de múltiplos trens
-- Ajuste de velocidade
-- Sincronização automática
-
 ## Demonstração
 https://github.com/user-attachments/assets/9758cb42-6221-40c1-abee-80c43a77da47
-
